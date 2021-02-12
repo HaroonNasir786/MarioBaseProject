@@ -1,3 +1,7 @@
 ﻿  MarioBaseProject.cpp
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\MarioBaseProject.cpp(95): warning C4715: 'InitSDL': not all control paths return a value
+  Texture2D.cpp
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\Texture2D.cpp(66,14): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\Texture2D.cpp(67,13): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\MarioBaseProject.cpp(96): warning C4715: 'InitSDL': not all control paths return a value
   MarioBaseProject.vcxproj -> C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\Debug\MarioBaseProject.exe
