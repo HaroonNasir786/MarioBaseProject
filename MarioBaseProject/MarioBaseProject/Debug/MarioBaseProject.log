@@ -1,10 +1,7 @@
-﻿  GameScreen.cpp
-  GameScreenLevel1.cpp
-  GameScreenManager.cpp
-  MarioBaseProject.cpp
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\MarioBaseProject.cpp(134,2): warning C4551: function call missing argument list
+﻿  MarioBaseProject.cpp
   Texture2D.cpp
 C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\Texture2D.cpp(66,14): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
 C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\Texture2D.cpp(67,13): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
   Generating Code...
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\Texture2D.cpp : fatal error C1090: PDB API call failed, error code '3': C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\Debug\vc142.pdb
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\MarioBaseProject.cpp(96): warning C4715: 'InitSDL': not all control paths return a value
+  MarioBaseProject.vcxproj -> C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\Debug\MarioBaseProject.exe
