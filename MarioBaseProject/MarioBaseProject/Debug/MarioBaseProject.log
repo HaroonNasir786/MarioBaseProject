@@ -4,5 +4,4 @@ C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseP
 C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\Texture2D.cpp(67,13): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
   Generating Code...
 C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\MarioBaseProject.cpp(96): warning C4715: 'InitSDL': not all control paths return a value
-  LINK : C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\Debug\MarioBaseProject.exe not found or not built by the last incremental link; performing full link
   MarioBaseProject.vcxproj -> C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\Debug\MarioBaseProject.exe
