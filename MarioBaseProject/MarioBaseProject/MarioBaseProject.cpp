@@ -21,6 +21,7 @@ Uint32 g_old_time;
 
 int main(int argc, char* args[])
 {
+	
 	//check if sdl was setup correctly
 	if (InitSDL())
 	{
@@ -146,6 +147,8 @@ void Render()
 
 	//update the screen
 	SDL_RenderPresent(g_renderer);
+
+	
 
 }
 
