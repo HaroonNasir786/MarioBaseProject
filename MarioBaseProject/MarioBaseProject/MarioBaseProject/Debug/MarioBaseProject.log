@@ -1,0 +1,14 @@
+﻿  Character.cpp
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(6,27): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(7,21): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(8,34): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(9,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\Character.cpp(11,45): warning C4390: ';': empty controlled statement found; is this the intent?
+  MarioBaseProject.cpp
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(6,27): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(7,21): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(8,34): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(9,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\MarioBaseProject.cpp(92): warning C4715: 'InitSDL': not all control paths return a value
+  MarioBaseProject.vcxproj -> C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\Debug\MarioBaseProject.exe

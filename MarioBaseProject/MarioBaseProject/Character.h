@@ -3,7 +3,7 @@
 #include <SDL.h>
 #include <iostream>
 #include <string>
-class Texture2D;
+#include "Texture2D.h"
 
 
 class Character
@@ -19,6 +19,12 @@ public:
 	Vector2D GetPosition();
 	void AddGravity(float deltaTime);
 	void Jump();
+	float GetCollisionRadius();
+	
+	Rect2D GetCollisionBox() {
+		return Rect2D(m_position.x, m_position.y,
+			m_texture->GetWidth(), m_texture->GetHeight());
+	}
 
  protected:
 	 SDL_Renderer* m_renderer;
@@ -32,6 +38,7 @@ public:
 	 float m_jump_force;
 	 virtual void MoveLeft(float deltaTime);
 	 virtual void MoveRight(float deltaTime);
+	 float m_collision_radius;
 
 
 };
