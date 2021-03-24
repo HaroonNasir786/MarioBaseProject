@@ -18,6 +18,8 @@ Character::Character(SDL_Renderer* renderer, std::string LoadFromFile, Vector2D 
 
 	m_moving_left = false;
 	m_moving_right = false;
+
+	m_collision_radius = 15.0f;
 }
 
 Character::~Character()
@@ -70,43 +72,6 @@ void Character::Update(float deltaTime, SDL_Event e)
 		MoveRight(deltaTime);
 	}
 
-	SDL_PollEvent(&e);
-
-	switch (e.type)
-	{
-	case SDL_KEYDOWN:
-		switch (e.key.keysym.sym)
-		{
-		 case SDLK_LEFT:
-			m_moving_left = true;
-			break;
-		 case SDLK_RIGHT:
-			m_moving_right = true;
-			break;
-		 case SDLK_UP:
-			if (m_can_jump)
-			{
-				Jump();
-
-			}
-		}
-		break;
-
-	  case SDL_KEYUP:
-		switch (e.key.keysym.sym)
-		{
-		case SDLK_LEFT:
-			m_moving_left = false;
-			break;
-		case SDLK_RIGHT:
-			m_moving_right = false;
-			break;
-		}
-		break;
-	}
-
-
-	
 }
 
 void Character::SetPosition(Vector2D new_position)
@@ -139,6 +104,11 @@ void Character::Jump()
 		m_jumping = true;
 		m_can_jump = true;
 	}
+}
+
+float Character::GetCollisionRadius()
+{
+	return m_collision_radius;
 }
 
 void Character::MoveLeft(float deltaTime)
