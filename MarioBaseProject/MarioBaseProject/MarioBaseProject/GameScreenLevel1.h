@@ -4,6 +4,7 @@
 #include "Character.h"
 #include "CharacterMario.h"
 #include "CharacterLuigi.h"
+#include "LevelMap.h"
 class Texture2D;
 
 class GameScreenLevel1: GameScreen
@@ -20,6 +21,9 @@ private:
 	Texture2D* m_background_texture;
 	Character* my_character;
 	Character* my_character2;
+	LevelMap* m_level_map;
 	bool SetUpLevel();
+	void SetLevelMap();
+	
 };
 

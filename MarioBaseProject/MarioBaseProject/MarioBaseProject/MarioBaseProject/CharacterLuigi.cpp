@@ -1,0 +1,49 @@
+#include "CharacterLuigi.h"
+#include "constants.h"
+
+CharacterLuigi::CharacterLuigi(SDL_Renderer* renderer, std::string imagePath, Vector2D startPosition) : Character(renderer, imagePath, startPosition)
+{
+
+}
+
+CharacterLuigi::~CharacterLuigi()
+{
+}
+
+void CharacterLuigi::Update(float deltaTime, SDL_Event e)
+{
+	//Call Update to handle gravity/collision/etc.
+	Character::Update(deltaTime, e);
+
+
+	switch (e.type) {
+		//Key Down Events
+	case SDL_KEYDOWN:
+		switch (e.key.keysym.sym) {
+		case SDLK_a:
+			m_moving_left = true;
+			break;
+		case SDLK_d:
+			m_moving_right = true;
+			break;
+		case SDLK_w:
+			if (m_can_jump)
+				Jump();
+			break;
+		}
+		break;
+
+		//Key Up Events
+	case SDL_KEYUP:
+		switch (e.key.keysym.sym) {
+		case SDLK_a:
+			m_moving_left = false;
+			break;
+		case SDLK_d:
+			m_moving_right = false;
+			break;
+		}
+		break;
+
+	}
+}
