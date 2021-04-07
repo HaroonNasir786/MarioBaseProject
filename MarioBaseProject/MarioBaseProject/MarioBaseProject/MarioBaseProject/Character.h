@@ -4,13 +4,14 @@
 #include <iostream>
 #include <string>
 #include "Texture2D.h"
+#include "LevelMap.h"
 
 
 class Character
 {
 
 public:
-	Character(SDL_Renderer* renderer, std::string LoadFromFile, Vector2D start_position);
+	Character(SDL_Renderer* renderer, std::string LoadFromFile, Vector2D start_position, LevelMap* map);
 	~Character();
 
 	virtual void Render();
@@ -31,6 +32,7 @@ public:
 	 Vector2D m_position;
 	 Texture2D* m_texture;
 	 FACING m_facing_direction;
+	 LevelMap* m_current_level_map;
 	 bool m_moving_left;
 	 bool m_moving_right;
 	 bool m_jumping;
