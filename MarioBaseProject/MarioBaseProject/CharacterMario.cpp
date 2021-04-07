@@ -19,13 +19,13 @@ void CharacterMario::Update(float deltaTime, SDL_Event e)
 	case SDL_KEYDOWN:
 		switch (e.key.keysym.sym)
 		{
-		case SDLK_LEFT:
+		case SDLK_a:
 			m_moving_left = true;
 			break;
-		case SDLK_RIGHT:
+		case SDLK_d:
 			m_moving_right = true;
 			break;
-		case SDLK_UP:
+		case SDLK_w:
 			if (m_can_jump)
 			{
 				Jump();
@@ -37,10 +37,10 @@ void CharacterMario::Update(float deltaTime, SDL_Event e)
 	case SDL_KEYUP:
 		switch (e.key.keysym.sym)
 		{
-		case SDLK_LEFT:
+		case SDLK_a:
 			m_moving_left = false;
 			break;
-		case SDLK_RIGHT:
+		case SDLK_d:
 			m_moving_right = false;
 			break;
 		}

@@ -132,3 +132,8 @@ void Character::MoveRight(float deltaTime)
 	m_position.x += deltaTime * MOVEMENTSPEED;
 	m_facing_direction = FACING_RIGHT;
 }
+
+void Character::CancelJump()
+{
+	m_jumping = false;
+}

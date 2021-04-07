@@ -1,81 +1,24 @@
-﻿  Character.cpp
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(10,27): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(11,21): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(12,34): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(13,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(14,28): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\Character.h(27,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\Character.h(27,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\Character.cpp(10,45): warning C4390: ';': empty controlled statement found; is this the intent?
-  CharacterLuigi.cpp
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(10,27): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(11,21): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(12,34): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(13,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(14,28): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+﻿  CharacterLuigi.cpp
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(12,27): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(13,21): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(14,26): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(15,34): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(16,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(17,38): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(18,28): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(19,25): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
 C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\Character.h(27,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\Character.h(27,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   CharacterMario.cpp
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(10,27): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(11,21): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(12,34): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(13,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(14,28): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(12,27): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(13,21): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(14,26): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(15,34): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(16,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(17,38): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(18,28): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(19,25): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
 C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\Character.h(27,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\Character.h(27,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  Collisions.cpp
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(10,27): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(11,21): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(12,34): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(13,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(14,28): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\Character.h(27,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\Character.h(27,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  GameScreenLevel1.cpp
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(10,27): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(11,21): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(12,34): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(13,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(14,28): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\Character.h(27,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\Character.h(27,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  GameScreenManager.cpp
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(10,27): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(11,21): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(12,34): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(13,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(14,28): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\Character.h(27,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\Character.h(27,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  LevelMap.cpp
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(10,27): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(11,21): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(12,34): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(13,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(14,28): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-  MarioBaseProject.cpp
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(10,27): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(11,21): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(12,34): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(13,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(14,28): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-  PowBlock.cpp
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(10,27): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(11,21): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(12,34): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(13,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(14,28): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\PowBlock.cpp(14,44): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\PowBlock.cpp(15,42): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\PowBlock.cpp(35,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\PowBlock.cpp(36,45): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\PowBlock.cpp(36,45): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\PowBlock.cpp(36,64): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\PowBlock.cpp(36,64): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\PowBlock.cpp(37,66): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\PowBlock.cpp(37,66): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\PowBlock.cpp(37,85): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\PowBlock.cpp(37,85): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
   Generating Code...
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\MarioBaseProject.cpp(92): warning C4715: 'InitSDL': not all control paths return a value
   MarioBaseProject.vcxproj -> C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\Debug\MarioBaseProject.exe
