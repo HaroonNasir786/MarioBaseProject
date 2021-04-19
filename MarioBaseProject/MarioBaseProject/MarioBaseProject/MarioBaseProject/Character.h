@@ -26,6 +26,9 @@ public:
 		return Rect2D(m_position.x, m_position.y,
 			m_texture->GetWidth(), m_texture->GetHeight());
 	}
+	
+	bool IsJumping() { return m_jumping; }
+	void CancelJump();
 
  protected:
 	 SDL_Renderer* m_renderer;

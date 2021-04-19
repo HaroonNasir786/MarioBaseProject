@@ -2,7 +2,7 @@
 
 PowBlock::PowBlock(SDL_Renderer* renderer, LevelMap* map)
 {
-	std::string imagePath = "Images/PowBlock.png";
+	std::string imagePath = "Images/Characters/PowBlock.png";
 	m_texture = new Texture2D(renderer);
 	if (!m_texture->LoadFromFile(imagePath.c_str()))
 	{

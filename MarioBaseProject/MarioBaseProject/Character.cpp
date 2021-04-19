@@ -1,12 +1,14 @@
 #include "Character.h"
 #include "Texture2D.h"
 #include "constants.h"
+#include <SDL_mixer.h>
 
 Character::Character(SDL_Renderer* renderer, std::string LoadFromFile, Vector2D start_position, LevelMap* map)
 {
 	m_renderer = renderer;
 	m_position = start_position;
 	m_texture = new Texture2D(m_renderer);
+	LoadAudio();
 	if (!m_texture->LoadFromFile(LoadFromFile));
 	{
 		std::cout << "Failed to load background texture!" << std::endl;
@@ -109,11 +111,24 @@ void Character::AddGravity(float deltaTime)
 
 void Character::Jump()
 {
-	if (!m_jumping) {
+	if (!m_jumping) 
+	{
+		Mix_PlayChannel(-1, jumpSound, 0);
 		m_jump_force = INITIAL_JUMP_FORCE;
 		m_jumping = true;
 		m_can_jump = true;
 	}
+}
+
+bool Character::LoadAudio()
+{
+	jumpSound = Mix_LoadWAV("Music/Character/Jump.wav");
+	if (jumpSound == NULL)
+	{
+		std::cout << "Failed to load jump sound! Error: " << Mix_GetError() << std::endl;
+		return false;
+	}
+	return true;
 }
 
 float Character::GetCollisionRadius()
@@ -142,3 +157,4 @@ void Character::CancelJump()
 {
 	m_jumping = false;
 }
+

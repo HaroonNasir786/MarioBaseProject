@@ -133,6 +133,11 @@ void Character::MoveRight(float deltaTime)
 	m_facing_direction = FACING_RIGHT;
 }
 
+void Character::SetAlive(bool isAlive)
+{
+	alive = isAlive;
+}
+
 void Character::CancelJump()
 {
 	m_jumping = false;

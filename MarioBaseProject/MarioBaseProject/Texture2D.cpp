@@ -6,7 +6,6 @@ using namespace std;
 Texture2D::Texture2D(SDL_Renderer* renderer)
 {
 	m_renderer = renderer;
-
 }
 
 Texture2D::~Texture2D()

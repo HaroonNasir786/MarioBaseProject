@@ -17,29 +17,40 @@ bool Update();
 void Render();
 GameScreenManager* game_screen_manager;
 Uint32 g_old_time;
+bool closeGame = false;
 
 
 int main(int argc, char* args[])
 {
-	
+	cout << "Mario Bros. Stats Window" << endl;
+
 	//check if sdl was setup correctly
-	if (InitSDL())
-	{
-		game_screen_manager = new GameScreenManager(g_renderer, SCREEN_LEVEL1);
-		//set the time
+	InitSDL();
+	
+		game_screen_manager = new GameScreenManager(g_renderer, SCREEN_MENU);
 		g_old_time = SDL_GetTicks();
-
 		bool quit = false;
-
-		//Game Loop
-		while (!quit)
+		while (!quit && !closeGame)
 		{
 			Render();
 			quit = Update();
 		}
 
-	}
+		game_screen_manager = new GameScreenManager(g_renderer, SCREEN_LEVEL1);
+		quit = false;
+		while (!quit && !closeGame)
+		{
+			Render();
+			quit = Update();
+		}
 
+		game_screen_manager = new GameScreenManager(g_renderer, SCREEN_LEVEL2);
+		quit = false;
+		while (!quit && !closeGame)
+		{
+			Render();
+			quit = Update();
+		}
 	CLoseSDL();
 
 	return 0;
@@ -70,25 +81,41 @@ bool InitSDL()
 			cout << "Window was not created. Error: " << SDL_GetError();
 			return false;
 		}
-	}
 
-	g_renderer = SDL_CreateRenderer(g_window, -1, SDL_RENDERER_ACCELERATED);
 
-	if (g_renderer != nullptr)
-	{
-		//init PNG loading
-		int imageFlags = IMG_INIT_PNG;
-		if (!(IMG_Init(imageFlags) & imageFlags))
+		g_renderer = SDL_CreateRenderer(g_window, -1, SDL_RENDERER_ACCELERATED);
+
+		if (g_renderer != nullptr)
 		{
-			cout << "SDL_Image could not initialise. Error: " << IMG_GetError();
+			//init PNG loading
+			int imageFlags = IMG_INIT_PNG;
+			if (!(IMG_Init(imageFlags) & imageFlags))
+			{
+				cout << "SDL_Image could not initialise. Error: " << IMG_GetError();
+				return false;
+			}
+
+			// Initialise SDL_ttf
+			if (TTF_Init() == -1)
+			{
+				printf("SDL_ttf could not initialise! SDL_ttf Error: %s\n", TTF_GetError());
+				return false;
+			}
+		}
+		else
+		{
+			cout << "Renderer could not initialise. Error: " << SDL_GetError();
+			return false;
+		}
+
+		if (Mix_OpenAudio(22050, AUDIO_S16SYS, 2, 2048) < 0)
+		{
+			cout << "Mixer could not initialise. Error: " << Mix_GetError();
 			return false;
 		}
 	}
-	else
-	{
-		cout << "Renderer could not initialise. Error: " << SDL_GetError();
-		return false;
-	}
+
+	return true;
 }
 
 void CLoseSDL()
@@ -100,6 +127,8 @@ void CLoseSDL()
 	//quit SDL subsystems
 	IMG_Quit();
 	SDL_Quit();
+	TTF_Quit();
+	Mix_Quit();
 
 	//release the renderer
 	SDL_DestroyRenderer(g_renderer);
@@ -114,25 +143,42 @@ void CLoseSDL()
 
 bool Update()
 {
-	Uint32 new_time = SDL_GetTicks();
+	// Get the new time.
+	Uint32 newTime = SDL_GetTicks();
 
-	//Event handler
 	SDL_Event e;
-
-	//get events
 	SDL_PollEvent(&e);
-	//handle the events
+
 	switch (e.type)
 	{
-		//click the 'X' to quit
 	case SDL_QUIT:
+		closeGame = true;
+		return true;
+		break;
+
+	case SDL_KEYUP:
+		switch (e.key.keysym.sym)
+		{
+		case SDLK_RETURN:
+			Mix_HaltMusic();
+			Mix_HaltChannel(-1);
+			return true;
+			break;
+		case SDLK_ESCAPE:
+			closeGame = true;
+			break;
+		}
+		break;
+
+	case SDL_MOUSEBUTTONDOWN:
 		return true;
 		break;
 	}
 
-	game_screen_manager->Update((float)(new_time - g_old_time) / 1000.0f, e);
+	game_screen_manager->Update((float)(newTime - g_old_time) / 1000.0f, e);
 
-	g_old_time = new_time;
+	// Set the current time to be the old time.
+	g_old_time = newTime;
 
 	return false;
 }

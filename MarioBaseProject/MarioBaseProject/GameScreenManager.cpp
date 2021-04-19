@@ -1,7 +1,10 @@
-#include "GameScreenManager.h"
-#include "GameScreenLevel1.h"
 #include "GameScreen.h"
-
+#include "GameMenu.h"
+#include "GameScreenLevel1.h"
+#include "GameScreenManager.h"
+#include <iostream>
+#include "GameScreenLevel2.h"
+using namespace std;
 GameScreenManager::GameScreenManager(SDL_Renderer* renderer, SCREENS startScreen)
 {
 	m_renderer = renderer;
@@ -33,16 +36,31 @@ void GameScreenManager::ChangeScreen(SCREENS new_screen)
 	{
 		delete m_current_screen;
 	}
+	GameMenu* tempScreenMenu;
+	GameScreenLevel1* tempScreenLevel1;
+	GameScreenLevel2* tempScreenLevel2;
 
-	GameScreenLevel1* tempScreen;
 
 	switch (new_screen)
 	{
+	case SCREEN_MENU:
+		tempScreenMenu = new GameMenu(m_renderer);
+		m_current_screen = (GameScreen*)tempScreenMenu;
+		tempScreenMenu = NULL;
+		break;
 	case SCREEN_LEVEL1:
-		tempScreen = new GameScreenLevel1(m_renderer);
-		m_current_screen = (GameScreen*)tempScreen;
-		tempScreen = nullptr;
-	default:;
+		tempScreenLevel1 = new GameScreenLevel1(m_renderer);
+		m_current_screen = (GameScreen*)tempScreenLevel1;
+		tempScreenLevel1 = NULL;
+		break;
+	case SCREEN_LEVEL2:
+		tempScreenLevel2 = new GameScreenLevel2(m_renderer);
+		m_current_screen = (GameScreen*)tempScreenLevel2;
+		tempScreenLevel2 = NULL;
+		break;
+	default:
+		cout << "Was not able to load any of the game screens!" << endl;
+		break;
 	}
 
 }

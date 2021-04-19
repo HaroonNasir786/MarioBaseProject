@@ -69,11 +69,20 @@ void CharacterGoomba::Update(float deltaTime, SDL_Event e)
 
 void CharacterGoomba::TakeDamage()
 {
-
+	m_injured = true;
+	m_injured_time = INJURED_TIME;
+	Jump();
 }
 
 void CharacterGoomba::Jump()
 {
+	if (!m_jumping)
+	{
+		m_jump_force = INITIAL_JUMP_FORCE_SMALL;
+
+		m_jumping = true;
+		m_can_jump = false;
+	}
 }
 
 void CharacterGoomba::AnimateGoomba(float deltaTime, SDL_Event e)
@@ -93,4 +102,15 @@ void CharacterGoomba::AnimateGoomba(float deltaTime, SDL_Event e)
 
 void CharacterGoomba::FlipRightWayUp()
 {
+	if (m_facing_direction == 0)
+	{
+		m_facing_direction = FACING_RIGHT;
+	}
+	else
+	{
+		m_facing_direction = FACING_LEFT;
+	}
+
+	m_injured = false;
+	Jump();
 }

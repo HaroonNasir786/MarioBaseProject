@@ -1,24 +1,27 @@
-﻿  CharacterLuigi.cpp
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(12,27): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(13,21): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(14,26): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(15,34): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(16,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(17,38): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(18,28): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(19,25): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\Character.h(27,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\Character.h(27,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  CharacterMario.cpp
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(12,27): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(13,21): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(14,26): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(15,34): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(16,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(17,38): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(18,28): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\constants.h(19,25): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\Character.h(27,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\Character.h(27,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  Generating Code...
+﻿  GameScreenLevel2.cpp
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\Constants.h(14,27): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\Constants.h(15,21): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\Constants.h(16,26): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\Constants.h(17,34): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\Constants.h(18,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\Constants.h(19,38): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\Constants.h(20,28): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\Constants.h(21,25): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\Character.h(30,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\Character.h(30,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\GameScreenLevel2.cpp(51,20): warning C4150: deletion of pointer to incomplete type '_Mix_Music'; no destructor called
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\SDL2\SDL\mixer_include\SDL_mixer.h(143): message : see declaration of '_Mix_Music'
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\GameScreenLevel2.cpp(54,21): warning C4150: deletion of pointer to incomplete type '_Mix_Music'; no destructor called
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\SDL2\SDL\mixer_include\SDL_mixer.h(143): message : see declaration of '_Mix_Music'
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\GameScreenLevel2.cpp(88,22): warning C4150: deletion of pointer to incomplete type '_TTF_Font'; no destructor called
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\SDL_ttf.h(98): message : see declaration of '_TTF_Font'
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\GameScreenLevel2.cpp(91,18): warning C4150: deletion of pointer to incomplete type '_TTF_Font'; no destructor called
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\SDL_ttf.h(98): message : see declaration of '_TTF_Font'
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\GameScreenLevel2.cpp(94,19): warning C4150: deletion of pointer to incomplete type '_TTF_Font'; no destructor called
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\SDL_ttf.h(98): message : see declaration of '_TTF_Font'
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\GameScreenLevel2.cpp(97,18): warning C4150: deletion of pointer to incomplete type '_TTF_Font'; no destructor called
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\SDL_ttf.h(98): message : see declaration of '_TTF_Font'
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\GameScreenLevel2.cpp(127,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\GameScreenLevel2.cpp(132,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\MarioBaseProject\GameScreenLevel2.cpp(137,20): warning C4018: '<': signed/unsigned mismatch
   MarioBaseProject.vcxproj -> C:\Users\Harooonie\Documents\GitHub\MarioBaseProject\MarioBaseProject\Debug\MarioBaseProject.exe

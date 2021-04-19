@@ -5,7 +5,8 @@
 #include <string>
 #include "Texture2D.h"
 #include "LevelMap.h"
-
+#include <SDL_mixer.h>
+#include <iostream>
 
 class Character
 {
@@ -16,6 +17,8 @@ public:
 
 	virtual void Render();
 	virtual void Update(float deltaTime, SDL_Event e);
+	bool LoadAudio();
+	Mix_Chunk* jumpSound;
 	void SetPosition(Vector2D new_position);
 	Vector2D GetPosition();
 	void AddGravity(float deltaTime);
@@ -31,7 +34,7 @@ public:
 	void CancelJump();
 	void SetAlive(bool isAlive);
 	bool GetAlive() { return alive; }
-
+	
  protected:
 	 SDL_Renderer* m_renderer;
 	 Vector2D m_position;

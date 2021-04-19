@@ -11,8 +11,11 @@
 #include "CharacterCoin.h"
 #include "CharacterGoomba.h"
 #include "CharacterPeach.h"
+#include <vector>
+#include <Windows.h>
 class Texture2D;
 class Character;
+
 
 class GameScreenLevel1: GameScreen
 {
@@ -24,7 +27,6 @@ public:
 	void Update(float deltaTime, SDL_Event e) override;
 
 	void UpdatePowBlock();
-
 
 private:
 	Texture2D* m_background_texture;
@@ -39,7 +41,7 @@ private:
 	vector<CharacterCoin*> m_coins;
 	vector<CharacterGoomba*> m_EnemyGoomba;
 	CharacterPeach* characterPeach;
-
+	
 	bool SetUpLevel();
 	void SetLevelMap();
 	void DoScreenshake();
@@ -57,9 +59,6 @@ private:
 	float m_wobble;
 	float m_background_yPos;
 	float enemyTimer;
-	
-	
-	
-
+	bool playersDead;
 };
 

@@ -29,6 +29,8 @@ public:
 	
 	bool IsJumping() { return m_jumping; }
 	void CancelJump();
+	void SetAlive(bool isAlive);
+	bool GetAlive() { return alive; }
 
  protected:
 	 SDL_Renderer* m_renderer;
@@ -44,6 +46,8 @@ public:
 	 virtual void MoveLeft(float deltaTime);
 	 virtual void MoveRight(float deltaTime);
 	 float m_collision_radius;
+	 bool alive = true;
+
 
 
 };
