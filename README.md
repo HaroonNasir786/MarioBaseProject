@@ -1,4 +1,5 @@
-# MarioBaseProject
+# Mario Bros Game
 
-![GitHub Logo](/images/1.png)
-Format: ![Alt Text](https://github.com/HaroonNasir786/MarioBaseProject)
+![Image of marion](https://github.com/HaroonNasir786/MarioBaseProject/blob/main/1.png)
+![Image of marion](https://github.com/HaroonNasir786/MarioBaseProject/blob/main/2.png)
+![Image of marion](https://github.com/HaroonNasir786/MarioBaseProject/blob/main/3.png)
